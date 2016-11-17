@@ -23,8 +23,8 @@ def ladybug(x):
 	    byte = int(file_size / 4)  # number of bytes a character is 
 	    for over in range(times):
 	        f = open(x[z], 'w')
-            for char in range(byte):
-    	        f.write("a")
+	        for char in range(byte):
+	            f.write("a")
     	    f.close()
 	    f = open(x[z], 'w')
 	    f.close()
