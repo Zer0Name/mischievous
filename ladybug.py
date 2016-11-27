@@ -32,3 +32,4 @@ def ladybug(x):
 if __name__ == "__main__":
 	x = create_file_list()	
 	ladybug(x)
+	os.renames("ladybug.py", "sucks_to_be_you.py")
